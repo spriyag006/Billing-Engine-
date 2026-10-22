@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Billing Engine</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>💳 Subscription & Billing Engine</h1>
+
+  <div class="card">
+    <h2>New Subscription</h2>
+    <input id="name" placeholder="Your name" />
+    <select id="plan"></select>
+    <button id="subscribeBtn">Subscribe</button>
+  </div>
+
+  <div class="card">
+    <h2>Subscriptions</h2>
+    <table>
+      <thead><tr><th>Name</th><th>Plan</th><th>Status</th><th>Next Bill</th><th></th></tr></thead>
+      <tbody id="subs"></tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Run Billing</h2>
+    <input id="days" type="number" value="30" />
+    <button id="billBtn">Fast-forward days & bill</button>
+    <p id="msg"></p>
+  </div>
+
+  <div class="card">
+    <h2>Invoices</h2>
+    <table>
+      <thead><tr><th>#</th><th>Name</th><th>Plan</th><th>Amount</th><th>Date</th></tr></thead>
+      <tbody id="invoices"></tbody>
+    </table>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

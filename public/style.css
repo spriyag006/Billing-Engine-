@@ -1,0 +1,51 @@
+body 
+{ font-family: sans-serif; 
+    background: #f3f4f6; 
+    max-width: 700px;
+     margin: 0 auto;
+      padding: 14px; 
+    }
+h1 
+{ font-size: 22px; 
+    color: #4f46e5; 
+}
+.card 
+{ background: #fff; 
+    padding: 16px; 
+    border-radius: 10px;
+     margin-bottom: 16px;
+     }
+input, select
+ { display: block;
+     width: 100%; 
+     padding: 10px; 
+     margin: 8px 0;
+      border: 1px solid #ccc;
+       border-radius: 6px;
+     }
+button 
+{ background: #4f46e5; 
+    color: #fff;
+     border: 0;
+      padding: 10px 14px; 
+      border-radius: 6px; 
+      cursor: pointer; 
+    }
+button.red 
+ { background: #dc2626;
+     padding: 6px 10px;
+     }
+table 
+{ width: 100%;
+     border-collapse: collapse; 
+     font-size: 14px; 
+    }
+th, td 
+{ text-align: left;
+     padding: 6px; 
+     border-bottom: 1px solid #e5e7eb; 
+    }
+#msg 
+{ 
+    color: green; 
+}
